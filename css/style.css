@@ -139,11 +139,11 @@ i {
   color: #f9f9f9;
   padding: 0.2em 0.2em;
   font-size: 1.2em;
-  
+
 }
 
 /* === MEDIA QUERIES === */
-@media screen and (min-width: 40em) {
+@media (min-width: 40em) {
 
   h1 {
     display: inline;
@@ -158,11 +158,12 @@ i {
       margin: 0;
       padding: 0;
       overflow: hidden;
+      float: right;
 
   }
 
   .menu {
-      float: right;
+      float: left;
   }
 
   li a {
@@ -185,6 +186,7 @@ i {
 
   .li {
     display: table-row;
+
   }
 
   .desc {
@@ -194,15 +196,20 @@ i {
 
     .container {
         margin: 0 auto;
+        width: 70em;
+    }
+    .containerImg {
+        margin: 0 auto;
         width: 40em;
     }
+
     .flex-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 
 }
 img {
-  max-width: 50%; /* CHIEDERE! 100% troppo */
+  width: 100%; 
 }
 
     .col-1 {
